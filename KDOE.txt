@@ -1,0 +1,6 @@
+f7YEN0DNJirmrqpC
+
+portfolio_user
+
+mongodb+srv://<db_username>:<db_password>@cluster0.zjcm0jd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+

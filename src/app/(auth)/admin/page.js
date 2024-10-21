@@ -40,19 +40,19 @@ export default function Dashboard() {
                     <tbody className="min-w-full divide-y divide-gray-200">
                         {!isLoading && messages.map((msg, index) => (
                             <tr key={msg._id}>
-                                <td>{index + 1}</td>
+                                <td className='px-6 py-4'>{index + 1}</td>
                                 <td>{msg.name}</td>
                                 <td>{msg.email}</td>
                                 <td>{msg.subject}</td>
                                 <td>{msg.messagee}</td>
-                                <td>{msg}</td>
+                                <td><a href='/'>Delete</a></td>
                                 {/* Add action buttons here */}
                             </tr>
                         ))}
                     </tbody>
                 </table>
             </Card>
-            <h5 className='mt-10'>Code by arifin</h5>
+            <h5 className='mt-25'>Code by arifin</h5>
             
         </>
     );
